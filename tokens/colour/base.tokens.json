@@ -29,21 +29,6 @@
             "negative": { "$value": "#3b0006", "$type": "color" }
         },
         "label-validated": { "$value": "#006b75", "$type": "color" },
-        "positive-background": {
-            " ": { "$value": "#edf8eb", "$type": "color" },
-            "-hover": { "$value": "#e5f6e2", "$type": "color" },
-            "-focus": { "$value": "#e0f4dc", "$type": "color" }
-        },
-        "caution-background": {
-            " ": { "$value": "#f8efe8", "$type": "color" },
-            "-hover": { "$value": "#f5e7dd", "$type": "color" },
-            "-focus": { "$value": "#f3e2d6", "$type": "color" }
-        },
-        "negative-background": {
-            " ": { "$value": "#f8e9e8", "$type": "color" },
-            "-hover": { "$value": "#f5dfdd", "$type": "color" },
-            "-focus": { "$value": "#f3d8d6", "$type": "color" }
-        },
         "states": {
             "error": { "$value": "{color.negative}", "$type": "color" },
             "caution": { "$value": "{color.caution}", "$type": "color" },
